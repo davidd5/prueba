@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-        		nodejs('node8_11_3') {
+        		nodejs('node8') {
          		   sh 'npm install' 
         		}
             } 
