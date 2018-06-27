@@ -11,7 +11,7 @@ pipeline {
         		nodejs('node8_11_3') {
          		   sh 'npm install' 
         		}
-            }
+            } 
         }
     }
 }
